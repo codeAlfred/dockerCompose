@@ -1,0 +1,11 @@
+DOCKER COMPOSE
+Para ejecutar docker compose, se debe crear primero el archivo docker-compose.yml
+en el se escribira los servicios contenedores que se relacionaran
+
+para iniciar:
+    docker-compose buil
+´para levantar
+    docker-compose up
+
+para ingresar a un contenedor y ver sus archivos
+    docker exec -it nombreContenedor bash
